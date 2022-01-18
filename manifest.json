@@ -1,0 +1,24 @@
+{
+    "name": "replace discord notification sound",
+    "version": "0.1",
+    "manifest_version": 3,
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "ruleset_1",
+            "enabled": true,
+            "path": "rules.json"
+        }]
+    },
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "https://discord.com/assets/dd920c06a01e5bb8b09678581e29d56f.mp3"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [ "notificationSound.mp3" ],
+            "matches": [ "https://discord.com/*" ]
+        }
+     ]
+}
