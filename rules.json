@@ -3,6 +3,6 @@
         "id": 1,
         "priority": 1,
         "action": { "type": "redirect", "redirect": { "extensionPath": "/notificationSound.mp3" } },
-        "condition": { "urlFilter": "https://discord.com/assets/dd920c06a01e5bb8b09678581e29d56f.mp3", "resourceTypes": ["media"] }
+        "condition": { "urlFilter": "https://discord.com/assets/7e95e417e6decf91459a.mp3", "resourceTypes": ["media"] }
     }
 ]
